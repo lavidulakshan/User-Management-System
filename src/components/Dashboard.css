@@ -1,0 +1,88 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.page-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.header {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.user-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.user-details-table {
+  width: 100%;
+  max-width: 1800px; /* Adjust max-width as needed */
+  overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+}
+
+.user-details-table h2 {
+  margin-bottom: 10px;
+}
+
+.user-details-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.user-details-table th,
+.user-details-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.user-details-table th {
+  background-color: #f2f2f2;
+}
+
+.user-details-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-details-table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-buttons button {
+  margin-left: 10px; /* Adjust spacing between buttons */
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  background-color: #0056b3;
+}
